@@ -157,32 +157,32 @@ img {
 	border-radius:12px;
 	}
 
-.dreamweaver       { width:70%;  -moz-animation:dreamweaver 2s ease-out;       -webkit-animation:dreamweaver 2s ease-out;       background:#333333;}
-.photoshop        { width:90%;  -moz-animation:photoshop 2s ease-out;        -webkit-animation:photoshop 2s ease-out;        background:#b63e2d;}
-.illustrator      { width:50%;  -moz-animation:illustrator 2s ease-out;      -webkit-animation:illustrator 2s ease-out;      background:#bcb799;}
-.indesign   { width:40%;  -moz-animation:indesign 2s ease-out;   -webkit-animation:indesign 2s ease-out;   background:#333333;}
-.flash { width:75%; -moz-animation:flash 2s ease-out; -webkit-animation:flash 2s ease-out; background:#b63e2d;}
-.wordpress { width:65%; -moz-animation:wordpress 2s ease-out; -webkit-animation:wordpress 2s ease-out; background:#bcb799;}
-.html { width:90%; -moz-animation:html 2s ease-out; -webkit-animation:html 2s ease-out; background:#333333;}
-.css { width:70%; -moz-animation:css 2s ease-out; -webkit-animation:css 2s ease-out; background:#b63e2d;}
+.final-cut-pro      { width:80%;  -moz-animation:final-cut-pro 2s ease-out;       -webkit-animation:final-cut-pro 2s ease-out;       background:#333333;}
+.music-audio-production        { width:95%;  -moz-animation:music-audio-production 2s ease-out;        -webkit-animation:music-audio-production 2s ease-out;        background:#b63e2d;}
+.photoshop      { width:75%;  -moz-animation:photoshop 2s ease-out;      -webkit-animation:photoshop 2s ease-out;      background:#bcb799;}
+.video-production   { width:80%;  -moz-animation:video-production 2s ease-out;   -webkit-animation:video-production 2s ease-out;   background:#333333;}
+.personal-selling { width:100%; -moz-animation:personal-selling 2s ease-out; -webkit-animation:personal-selling 2s ease-out; background:#b63e2d;}
+.social-media-marketing { width:85%; -moz-animation:social-media-marketing 2s ease-out; -webkit-animation:social-media-marketing 2s ease-out; background:#bcb799;}
+.promotions-advertising { width:75%; -moz-animation:promotions-advertising 2s ease-out; -webkit-animation:promotions-advertising 2s ease-out; background:#333333;}
+.account-client-management { width:70%; -moz-animation:account-client-management 2s ease-out; -webkit-animation:account-client-management 2s ease-out; background:#b63e2d;}
 
-@-moz-keyframes dreamweaver       { 0%  { width:0px;} 100%{ width:70%;}  }
-@-moz-keyframes photoshop        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-moz-keyframes illustrator      { 0%  { width:0px;} 100%{ width:50%;}  }
-@-moz-keyframes indesign   { 0%  { width:0px;} 100%{ width:40%;}  }
-@-moz-keyframes flash { 0%  { width:0px;} 100%{ width:75%;} }
-@-moz-keyframes wordpress { 0%  { width:0px;} 100%{ width:65%;} }
-@-moz-keyframes html { 0%  { width:0px;} 100%{ width:90%;} }
-@-moz-keyframes css { 0%  { width:0px;} 100%{ width:70%;} }
+@-moz-keyframes final-cut-pro       { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes music-audio-production        { 0%  { width:0px;} 100%{ width:95%;}  }
+@-moz-keyframes photoshop     { 0%  { width:0px;} 100%{ width:75%;}  }
+@-moz-keyframes video-production   { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes personal-selling { 0%  { width:0px;} 100%{ width:100%;} }
+@-moz-keyframes social-media-marketing { 0%  { width:0px;} 100%{ width:85%;} }
+@-moz-keyframes promotions-advertising { 0%  { width:0px;} 100%{ width:75%;} }
+@-moz-keyframes account-client-management { 0%  { width:0px;} 100%{ width:70%;} }
 
-@-webkit-keyframes dreamweaver       { 0%  { width:0px;} 100%{ width:70%;}  }
-@-webkit-keyframes photoshop        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-webkit-keyframes illustrator      { 0%  { width:0px;} 100%{ width:50%;}  }
-@-webkit-keyframes indesign   { 0%  { width:0px;} 100%{ width:40%;}  }
-@-webkit-keyframes flash { 0%  { width:0px;} 100%{ width:75%;} }
-@-webkit-keyframes wordpress { 0%  { width:0px;} 100%{ width:65%;} }
-@-webkit-keyframes html { 0%  { width:0px;} 100%{ width:90%;} }
-@-webkit-keyframes css { 0%  { width:0px;} 100%{ width:70%;} }
+@-webkit-keyframes final-cut-pro      { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes music-audio-production        { 0%  { width:0px;} 100%{ width:95%;}  }
+@-webkit-keyframes photoshop     { 0%  { width:0px;} 100%{ width:75%;}  }
+@-webkit-keyframes video-production   { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes personal-selling { 0%  { width:0px;} 100%{ width:100%;} }
+@-webkit-keyframes social-media-marketing { 0%  { width:0px;} 100%{ width:85%;} }
+@-webkit-keyframes promotions-advertising { 0%  { width:0px;} 100%{ width:75%;} }
+@-webkit-keyframes account-client-management { 0%  { width:0px;} 100%{ width:70%;} }
 
 /***************************************************
 				START PORTFOLIO
@@ -1235,7 +1235,7 @@ ul.intervals li {
     margin: 0;
     padding: 15px 0;
     text-align: center;
-    width: 14%;
+    width: 19.8%;
 	font-family:'VegurLight',Helvetica,sans-serif;
 	text-shadow: 1px 1px 0 #FFFFFF;
 }

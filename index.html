@@ -23,7 +23,7 @@
 <script type="text/javascript" src="js/hoverIntent.js"> </script>
 <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 <script src="js/jquery.quote_rotator.js" type="text/javascript" charset="utf-8"></script>
-
+<script type="text/javascript" src="js/unspamify.js"></script>
 <!-- *************************************************************************
 *********************  THIS IS THE CONTACT FORM JS  **************************
 ************************************************************************** -->
@@ -150,7 +150,7 @@ return false;
             
             <h3>Hi, I'm Bryan Gum!</h3>
             
-            <p>Welcome to my website! Here you can see my past work experience, my education, and also look through my creative portfolio. The portfolio features work I've done in graphic design, photography, and video production. <a href="#">facebook.com/bryanjgum</a></p>
+            <p>Welcome to my website! Here you can see my past work experience, my education, and also look through my creative portfolio. The portfolio features work I've done in graphic design, photography, and video production.</p>
             
           </div><!-- End of one half first -->
           
@@ -173,11 +173,12 @@ return false;
                 <!-- Start of one half -->
                 <div class="one_half">
                 
-                    <!-- Start of contact me site -->
-                    <div class="contact_me_site">
-                    <img src="img/Csite_bubble.png" width="44" height="47" alt="site" /><a href="#">www.website.com</a>
+                     <!-- Start of contact me email -->
+                    <div class="contact_me_email" style="width: 230px;"
+                    >
+                    <img src="img/Cemail_bubble.png" width="44" height="47" alt="email" /><a href="mailto:info@the_resume_template.com" class="unspamify-me">bryanjgum at gmail dot com</a>
                     
-                    </div><!-- End of contact me site -->
+                    </div><!-- End of contact me email -->
                     
                 </div><!-- End of one half -->
                 
@@ -193,14 +194,14 @@ return false;
                 </div><!-- End of one half first -->
                 
                 <!-- Start of one half -->
-                <div class="one_half">
-                
-                    <!-- Start of contact me email -->
-                    <div class="contact_me_email">
-                    <img src="img/Cemail_bubble.png" width="44" height="47" alt="email" /><a href="mailto:info@the_resume_template.com">bryanjgum@gmail</a>
+                <div class="one_half" style="visibility: hidden;">
+
+                     <!-- Start of contact me site -->
+                    <div class="contact_me_site">
+                    <img src="img/Csite_bubble.png" width="44" height="47" alt="site" /><a href="#">www.website.com</a>
                     
-                    </div><!-- End of contact me email -->
-                    
+                    </div><!-- End of contact me site -->
+
                 </div><!-- End of one half -->
     
           </div><!-- End of one half -->
@@ -220,14 +221,14 @@ return false;
                         
                         <!-- Start of skill ul -->
                         <ul id="skill">
-                            <li><span class="expand dreamweaver"></span><em>Final Cut Pro X</em></li>
-                            <li><span class="expand photoshop"></span><em>Music/Audio Production</em></li>
-                            <li><span class="expand illustrator"></span><em>Photoshop</em></li>
-                            <li><span class="expand indesign"></span><em>Getting chix, man.</em></li>
-                            <li><span class="expand flash"></span><em>Video Production</em></li>
-                            <li><span class="expand wordpress"></span><em>HTML</em></li>
-                            <li><span class="expand html"></span><em>Soccer like a boss</em></li>
-                            <li><span class="expand css"></span><em>Being a good friend</em></li>                            
+                            <li><span class="expand final-cut-pro"></span><em>Final Cut Pro X</em></li>
+                            <li><span class="expand music-audio-production"></span><em>Music/ Audio Production</em></li>
+                            <li><span class="expand photoshop"></span><em>Photoshop</em></li>
+                            <li><span class="expand video-production"></span><em>Video Production</em></li>
+                            <li><span class="expand personal-selling"></span><em>Personal Selling</em></li>
+                            <li><span class="expand social-media-marketing"></span><em>Social Media Marketing</em></li>
+                            <li><span class="expand promotions-advertising"></span><em>Promotions/ Advertising</em></li>
+                            <li><span class="expand account-client-management"></span><em>Account/ Client Management</em></li>                            
                         </ul><!-- End of skill ul -->
                     
                     </div><!-- End of col -->
@@ -244,7 +245,7 @@ return false;
             
                 <ul class="education">
                 
-                    <li><h5>Kansas State University</h5>I am currently a Junior majoring in Marketing with an emphasis in media and entertainment. My coursework gears me towards Media Marketing and Advertising careers. I am also minoring in Economics.</li>
+                    <li><h5>Kansas State University</h5>I am currently a Junior majoring in Marketing. My coursework gears me towards a career in Media and Entertainment Marketing with extra courses geared towards Advertising. I am also minoring in Economics.</li>
     
                     <li><h5>Johnson County Community College</h5>After graduating high school a semester early, I attended JCCC to complete some general education courses before I began attending K-State.</li>
                 
@@ -282,13 +283,11 @@ return false;
                 </ul> <!-- end .events -->
             
                 <ul class="intervals">
-                    <li class="first">2003</li>
-                    <li>2007</li>
-                    <li>2008</li>
-                    <li>2009</li>
+                    <li class="first">2009</li>
                     <li>2010</li>
                     <li>2011</li>
-                    <li class="last">2012</li>
+                    <li>2012</li>
+                    <li class="last">2013</li>
                 </ul> <!-- end .intervals -->
                 
 			</div> <!-- end .timeline -->
@@ -553,7 +552,7 @@ return false;
 	</div><!-- End of portfolio section -->
     
     <!-- Start of contact -->
-    <div class="contact">
+    <div class="contact" style="display: none;">
     
         <!-- Start of accordion button -->
         <div class="accordionButton">

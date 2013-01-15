@@ -236,6 +236,9 @@ $(document).ready(function() {
 
 });
 
+$(document).ready(function() {
+	$("a.unspamify-me").unspamify();
+});
 
 /***************************************************
 		FORM VALIDATION JAVASCRIPT
