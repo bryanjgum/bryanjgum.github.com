@@ -163,8 +163,8 @@ img {
 .video-production   { width:80%;  -moz-animation:video-production 2s ease-out;   -webkit-animation:video-production 2s ease-out;   background:#333333;}
 .personal-selling { width:100%; -moz-animation:personal-selling 2s ease-out; -webkit-animation:personal-selling 2s ease-out; background:#b63e2d;}
 .social-media-marketing { width:85%; -moz-animation:social-media-marketing 2s ease-out; -webkit-animation:social-media-marketing 2s ease-out; background:#bcb799;}
-.promotions-advertising { width:75%; -moz-animation:promotions-advertising 2s ease-out; -webkit-animation:promotions-advertising 2s ease-out; background:#333333;}
-.account-client-management { width:70%; -moz-animation:account-client-management 2s ease-out; -webkit-animation:account-client-management 2s ease-out; background:#b63e2d;}
+.promotions-advertising { width:85%; -moz-animation:promotions-advertising 2s ease-out; -webkit-animation:promotions-advertising 2s ease-out; background:#333333;}
+.account-client-management { width:75%; -moz-animation:account-client-management 2s ease-out; -webkit-animation:account-client-management 2s ease-out; background:#b63e2d;}
 
 @-moz-keyframes final-cut-pro       { 0%  { width:0px;} 100%{ width:80%;}  }
 @-moz-keyframes music-audio-production        { 0%  { width:0px;} 100%{ width:95%;}  }
@@ -172,8 +172,8 @@ img {
 @-moz-keyframes video-production   { 0%  { width:0px;} 100%{ width:80%;}  }
 @-moz-keyframes personal-selling { 0%  { width:0px;} 100%{ width:100%;} }
 @-moz-keyframes social-media-marketing { 0%  { width:0px;} 100%{ width:85%;} }
-@-moz-keyframes promotions-advertising { 0%  { width:0px;} 100%{ width:75%;} }
-@-moz-keyframes account-client-management { 0%  { width:0px;} 100%{ width:70%;} }
+@-moz-keyframes promotions-advertising { 0%  { width:0px;} 100%{ width:85%;} }
+@-moz-keyframes account-client-management { 0%  { width:0px;} 100%{ width:75%;} }
 
 @-webkit-keyframes final-cut-pro      { 0%  { width:0px;} 100%{ width:80%;}  }
 @-webkit-keyframes music-audio-production        { 0%  { width:0px;} 100%{ width:95%;}  }
