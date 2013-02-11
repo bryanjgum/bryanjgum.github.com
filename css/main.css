@@ -158,7 +158,7 @@ img {
 	}
 
 .marketing-promotions-advertising      { width:90%;  -moz-animation:marketing-promotions-advertising 2s ease-out;       -webkit-animation:marketing-promotions-advertising 2s ease-out;       background:#333333;}
-.social-media-marketing-lead-generation        { width:87%;  -moz-animation:social-media-marketing-lead-generation 2s ease-out;        -webkit-animation:social-media-marketing-lead-generation 2s ease-out;        background:#b63e2d;}
+.social-media-lead-generation-marketing        { width:87%;  -moz-animation:social-media-lead-generation-marketing 2s ease-out;        -webkit-animation:social-media-lead-generation-marketing 2s ease-out;        background:#b63e2d;}
 .personal-direct-sales      { width:98%;  -moz-animation:personal-direct-sales 2s ease-out;      -webkit-animation:personal-direct-sales 2s ease-out;      background:#bcb799;}
 .account-client-management   { width:88%;  -moz-animation:account-client-management 2s ease-out;   -webkit-animation:account-client-management 2s ease-out;   background:#333333;}
 .video-production { width:82%; -moz-animation:video-production 2s ease-out; -webkit-animation:video-production 2s ease-out; background:#b63e2d;}
@@ -167,7 +167,7 @@ img {
 .photoshop { width:75%; -moz-animation:photoshop 2s ease-out; -webkit-animation:photoshop 2s ease-out; background:#b63e2d;}
 
 @-moz-keyframes marketing-promotions-advertising       { 0%  { width:0px;} 100%{ width:90%;}  }
-@-moz-keyframes social-media-marketing-lead-generation      { 0%  { width:0px;} 100%{ width:87%;}  }
+@-moz-keyframes social-media-lead-generation-marketing      { 0%  { width:0px;} 100%{ width:87%;}  }
 @-moz-keyframes personal-direct-sales     { 0%  { width:0px;} 100%{ width:98%;}  }
 @-moz-keyframes account-client-management   { 0%  { width:0px;} 100%{ width:88%;}  }
 @-moz-keyframes video-production { 0%  { width:0px;} 100%{ width:82%;} }
@@ -176,7 +176,7 @@ img {
 @-moz-keyframes photoshop { 0%  { width:0px;} 100%{ width:75%;} }
 
 @-webkit-keyframes marketing-promotions-advertising      { 0%  { width:0px;} 100%{ width:90%;}  }
-@-webkit-keyframes social-media-marketing-lead-generation        { 0%  { width:0px;} 100%{ width:87%;}  }
+@-webkit-keyframes social-media-lead-generation-marketing        { 0%  { width:0px;} 100%{ width:87%;}  }
 @-webkit-keyframes personal-direct-sales     { 0%  { width:0px;} 100%{ width:98%;}  }
 @-webkit-keyframes account-client-management   { 0%  { width:0px;} 100%{ width:88%;}  }
 @-webkit-keyframes video-production { 0%  { width:0px;} 100%{ width:82%;} }
