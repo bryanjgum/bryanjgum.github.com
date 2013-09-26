@@ -479,7 +479,6 @@ h6 {
 	border-bottom:1px dashed #969491;
 	cursor:pointer;
 	padding-top:4px;
-	padding-left:110px;
 	}
 	
 .accordionContent {
@@ -1252,3 +1251,9 @@ ul.intervals li.first {
 	background-color: #BCB799 !important;
 }
 
+
+/* CUSTOMIZED */
+#intro-img {
+	float: left;
+	margin: 0 10px 0 0;
+}
