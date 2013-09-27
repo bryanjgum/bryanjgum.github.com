@@ -71,11 +71,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	}
 
 ::selection {
-	background:#b63e2d; /* Safari */
+	background:#55C3DC; /* Safari */
 	color:#ffffff;
 	}
 ::-moz-selection {
-	background:#b63e2d; /* Firefox */
+	background:#55C3DC; /* Firefox */
 	color:#ffffff;
 	}
 
@@ -134,7 +134,7 @@ img {
 
 #skill li em { 
 	position:relative; 
-	color:#ffffff;
+	color:#E7F3EF;
 	font-family:'KomikaAxisRegular', Helvetica, sans-serif;
 	font-size:12px;
 	padding-left:8px;
@@ -157,32 +157,32 @@ img {
 	border-radius:12px;
 	}
 
-.marketing-promotions-advertising      { width:90%;  -moz-animation:marketing-promotions-advertising 2s ease-out;       -webkit-animation:marketing-promotions-advertising 2s ease-out;       background:#333333;}
-.social-media-lead-generation-marketing        { width:87%;  -moz-animation:social-media-lead-generation-marketing 2s ease-out;        -webkit-animation:social-media-lead-generation-marketing 2s ease-out;        background:#b63e2d;}
-.personal-direct-sales      { width:98%;  -moz-animation:personal-direct-sales 2s ease-out;      -webkit-animation:personal-direct-sales 2s ease-out;      background:#bcb799;}
-.account-client-management   { width:88%;  -moz-animation:account-client-management 2s ease-out;   -webkit-animation:account-client-management 2s ease-out;   background:#333333;}
-.video-production { width:82%; -moz-animation:video-production 2s ease-out; -webkit-animation:video-production 2s ease-out; background:#b63e2d;}
-.music-audio-production { width:95%; -moz-animation:music-audio-production 2s ease-out; -webkit-animation:music-audio-production 2s ease-out; background:#bcb799;}
-.final-cut-pro { width:80%; -moz-animation:final-cut-pro 2s ease-out; -webkit-animation:final-cut-pro 2s ease-out; background:#333333;}
-.photoshop { width:75%; -moz-animation:photoshop 2s ease-out; -webkit-animation:photoshop 2s ease-out; background:#b63e2d;}
+.brand-development      { width:88%;  -moz-animation:brand-development 2s ease-out;       -webkit-animation:brand-development 2s ease-out;       background:#333333;}
+.marketing-and-strategy        { width:90%;  -moz-animation:marketing-and-strategy 2s ease-out;        -webkit-animation:marketing-and-strategy 2s ease-out;        background:#55C3DC;}
+.advertising-and-promotions      { width:82%;  -moz-animation:advertising-and-promotions 2s ease-out;      -webkit-animation:advertising-and-promotions 2s ease-out;      background:#E24B2C;}
+.video-production   { width:88%;  -moz-animation:video-production 2s ease-out;   -webkit-animation:video-production 2s ease-out;   background:#333333;}
+.professional-sales { width:95%; -moz-animation:professional-sales 2s ease-out; -webkit-animation:professional-sales 2s ease-out; background:#55C3DC;}
+.account-management { width:80%; -moz-animation:account-management 2s ease-out; -webkit-animation:account-management 2s ease-out; background:#E24B2C;}
+.final-cut-pro-x { width:85%; -moz-animation:final-cut-pro-x 2s ease-out; -webkit-animation:final-cut-pro-x 2s ease-out; background:#333333;}
+.adobe-photoshop-cc { width:75%; -moz-animation:adobe-photoshop-cc 2s ease-out; -webkit-animation:adobe-photoshop-cc 2s ease-out; background:#55C3DC;}
 
-@-moz-keyframes marketing-promotions-advertising       { 0%  { width:0px;} 100%{ width:90%;}  }
-@-moz-keyframes social-media-lead-generation-marketing      { 0%  { width:0px;} 100%{ width:87%;}  }
-@-moz-keyframes personal-direct-sales     { 0%  { width:0px;} 100%{ width:98%;}  }
-@-moz-keyframes account-client-management   { 0%  { width:0px;} 100%{ width:88%;}  }
-@-moz-keyframes video-production { 0%  { width:0px;} 100%{ width:82%;} }
-@-moz-keyframes music-audio-production { 0%  { width:0px;} 100%{ width:95%;} }
-@-moz-keyframes final-cut-pro { 0%  { width:0px;} 100%{ width:80%;} }
-@-moz-keyframes photoshop { 0%  { width:0px;} 100%{ width:75%;} }
+@-moz-keyframes brand-development       { 0%  { width:0px;} 100%{ width:88%;}  }
+@-moz-keyframes marketing-and-strategy      { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes advertising-and-promotions    { 0%  { width:0px;} 100%{ width:82%;}  }
+@-moz-keyframes video-production   { 0%  { width:0px;} 100%{ width:88%;}  }
+@-moz-keyframes professional-sales { 0%  { width:0px;} 100%{ width:95%;} }
+@-moz-keyframes account-management { 0%  { width:0px;} 100%{ width:80%;} }
+@-moz-keyframes final-cut-pro-x { 0%  { width:0px;} 100%{ width:85%;} }
+@-moz-keyframes adobe-photoshop-cc { 0%  { width:0px;} 100%{ width:75%;} }
 
-@-webkit-keyframes marketing-promotions-advertising      { 0%  { width:0px;} 100%{ width:90%;}  }
-@-webkit-keyframes social-media-lead-generation-marketing        { 0%  { width:0px;} 100%{ width:87%;}  }
-@-webkit-keyframes personal-direct-sales     { 0%  { width:0px;} 100%{ width:98%;}  }
-@-webkit-keyframes account-client-management   { 0%  { width:0px;} 100%{ width:88%;}  }
-@-webkit-keyframes video-production { 0%  { width:0px;} 100%{ width:82%;} }
-@-webkit-keyframes music-audio-production { 0%  { width:0px;} 100%{ width:95%;} }
-@-webkit-keyframes final-cut-pro { 0%  { width:0px;} 100%{ width:80%;} }
-@-webkit-keyframes photoshop { 0%  { width:0px;} 100%{ width:75%;} }
+@-webkit-keyframes brand-development      { 0%  { width:0px;} 100%{ width:88%;}  }
+@-webkit-keyframes marketing-and-strategy        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes advertising-and-promotions     { 0%  { width:0px;} 100%{ width:82%;}  }
+@-webkit-keyframes video-production   { 0%  { width:0px;} 100%{ width:88%;}  }
+@-webkit-keyframes professional-sales { 0%  { width:0px;} 100%{ width:95%;} }
+@-webkit-keyframes account-management { 0%  { width:0px;} 100%{ width:80%;} }
+@-webkit-keyframes final-cut-pro-x { 0%  { width:0px;} 100%{ width:85%;} }
+@-webkit-keyframes adobe-photoshop-cc { 0%  { width:0px;} 100%{ width:75%;} }
 
 /***************************************************
 				START PORTFOLIO
@@ -217,7 +217,7 @@ img {
 	}
 	
 #filter li a:hover {
-	color:#b63e2d;
+	color:#55C3DC;
 	text-decoration:none;
 	font-family:'KomikaAxisRegular', Helvetica, sans-serif;
 	font-size:18px;
@@ -406,7 +406,7 @@ div .first {
 h1 {
 	font-size:72px;
 	font-family:'KomikaAxisRegular', Helvetica, sans-serif;
-	color:#b63e2d;
+	color:#55C3DC;
 	margin-bottom:50px;
 	font-weight: normal;
 	}
@@ -414,7 +414,7 @@ h1 {
 h2 {
 	font-size:60px;
 	font-family:'KomikaAxisRegular', Helvetica, sans-serif;
-	color:#b63e2d;
+	color:#55C3DC;
 	margin-bottom:50px;
 	padding-bottom:25px;
 	width:40%;
@@ -428,7 +428,7 @@ h3 {
 	color:#333333;
 	margin-bottom:20px;
 	font-weight: normal;
-	text-shadow:1px 1px 0px #fff;
+	text-shadow: 1px 1px 0 #FFFFFF;;
 	}
 
 h4 {
@@ -437,13 +437,13 @@ h4 {
 	color:#333333;
 	margin-bottom:20px;
 	font-weight: normal;
-	text-shadow: 1px 1px 0 #FFFFFF;
+	text-shadow: 1px 1px 0 #E7F3EF;
 	}
 
 h5 {
 	font-size:13px;
 	font-family:'KomikaAxisRegular', Helvetica, sans-serif;
-	color:#b63e2d;
+	color:#55C3DC;
 	margin-bottom:20px;
 	font-weight: normal;
 	}
@@ -473,12 +473,13 @@ h6 {
     font-size:60px;
 	font-family:'KomikaAxisRegular', Helvetica, sans-serif;
 	color:#333333;
-	margin-bottom:50px;
+	margin: -38px 0 -20px 0;
 	padding-bottom:40px;
-	width:40%;
+	width: 47%;
 	border-bottom:1px dashed #969491;
-	cursor:pointer;
-	padding-top:4px;
+	float: right;
+	text-align: right;
+	border-bottom: 1px dashed #969491;
 	}
 	
 .accordionContent {
@@ -486,67 +487,6 @@ h6 {
     padding:15px 0 15px 0 !important;
 	}
 	
-.about_me .accordionButton {
-	background-image:url("../img/about_bubble.png");
-	background-repeat:no-repeat;
-	display:block;
-	text-shadow:1px 1px 0px #fff;
-	-webkit-transition: all 0.5s ease;  
-    -moz-transition: all 0.5s ease;    
-    -o-transition: all 0.5s ease;    
-    -ms-transition: all 0.5s ease;    
-    transition: all 0.5s ease;
-	}
-	
-.about_me .on, .about_me .accordionButton:hover {
-	background-image:url("../img/about_bubble_hover.png");
-	background-repeat:no-repeat;
-	display:block;
-	color:#b63e2d;
-	text-shadow:1px 1px 0px #fff;
-	}
-	
-.portfolio_section .accordionButton {
-	background-image:url("../img/portfolio_bubble.png");
-	background-repeat:no-repeat;
-	display:block;
-	text-shadow:1px 1px 0px #fff;
-	-webkit-transition: all 0.5s ease;  
-    -moz-transition: all 0.5s ease;    
-    -o-transition: all 0.5s ease;    
-    -ms-transition: all 0.5s ease;    
-    transition: all 0.5s ease;
-	}
-	
-.portfolio_section .on, .portfolio_section .accordionButton:hover {
-	background-image:url("../img/portfolio_bubble_hover.png");
-	background-repeat:no-repeat;
-	display:block;
-	color:#b63e2d;
-	text-shadow:1px 1px 0px #fff;
-	}
-	
-.contact .accordionButton {
-	background-image:url("../img/contact_bubble.png");
-	background-repeat:no-repeat;
-	display:block;
-	text-shadow:1px 1px 0px #fff;
-	-webkit-transition: all 0.5s ease;  
-    -moz-transition: all 0.5s ease;    
-    -o-transition: all 0.5s ease;    
-    -ms-transition: all 0.5s ease;    
-    transition: all 0.5s ease;
-	}
-	
-.contact .on, .contact .accordionButton:hover {
-	background-image:url("../img/contact_bubble_hover.png");
-	background-repeat:no-repeat;
-	display:block;
-	color:#b63e2d;
-	text-shadow:1px 1px 0px #fff;
-	}
-
-
 /***************************************************
        		   START OF PAGE STYLES
 ***************************************************/
@@ -560,21 +500,21 @@ body {
 	padding:0;
 	margin:0;
 	height:100%;
-	background-image:url("../img/bground_pattern.png");
+	background-image:url("../img/mint_background.jpg");
 	background-repeat:repeat;
 	}
 	
 a {
 	font-size:14px;
 	font-family:'VegurLight', Helvetica, sans-serif;
-	color:#b63e2d;
+	color:#E24B2C;
 	text-decoration:none;
 	}
 
 a:hover {
 	font-size:14px;
 	font-family:'VegurLight', Helvetica, sans-serif;
-	color:#b63e2d;
+	color:#55C3DC;
 	text-decoration:underline;
 	} 
 
@@ -584,57 +524,16 @@ p {
 	font-family:'VegurLight', Helvetica, sans-serif;
 	color:#333333;
 	line-height:1.4em;
-	text-shadow:1px 1px 0px #fff;
+	text-shadow: 1px 1px 0 #FFFFFF;;
 	}
 
-#header_wrapper {
+#header {
 	width:100%;
-	padding:0;
 	margin:0;
-	height:90px;
-	background-image:url("../img/menu_bar.png");
-	background-repeat:repeat;
-	position:relative;
+	height:10px;
+	background: #55C3DC
 	}
 	
-.header {
-	width:960px;
-	margin:0 auto;
-	position:relative;
-	}
-	
-#top_logo {
-	float:left;
-	margin-top:20px;
-	}
-	
-#top_download {
-	float:right;
-	margin-top:20px;
-	display:block;
-	position:relative;
-	position:absolute;
-	left:764px;
-	height: 40px;
-	width: 181px;
-	opacity: 0.5;
-	-webkit-transition: height .5s ease-in, opacity 1s ease;  
-    -moz-transition: height .5s ease-in, opacity 1s ease;    
-    -o-transition: height .5s ease-in, opacity 1s ease;    
-    -ms-transition: height .5s ease-in, opacity 1s ease;    
-    transition: height .5s ease-in, opacity 1s ease;  
-	overflow: hidden; 
-	}
-	
-#top_download a {
-	display:block;
-	z-index:98;
-	}
-	
-#top_download:hover {
-	height:220px;
-	opacity: 1;
-	}
 	
 .wrapper {
 	width:960px;
@@ -664,10 +563,10 @@ p {
 .contact_me_phone {
 	font-size:13px;
 	font-family:'KomikaAxisRegular', Helvetica, sans-serif;
-	color:#b63e2d;
+	color:#55C3DC;
 	font-weight:normal;
 	text-transform:uppercase;
-	text-shadow:1px 1px 0px #fff;
+	text-shadow: 1px 1px 0 #FFFFFF;;
 	}
 	
 .contact_me_phone img, .contact_me_site img, .contact_me_location img, .contact_me_email img {
@@ -679,38 +578,38 @@ p {
 .contact_me_site {
 	font-size:13px;
 	font-family:'KomikaAxisRegular', Helvetica, sans-serif;
-	color:#b63e2d;
+	color:#55C3DC;
 	font-weight:normal;
 	text-transform:uppercase;
-	text-shadow:1px 1px 0px #fff;
+	text-shadow: 1px 1px 0 #FFFFFF;;
 	}
 	
 .contact_me_location {
 	font-size:13px;
 	font-family:'KomikaAxisRegular', Helvetica, sans-serif;
-	color:#b63e2d;
+	color:#55C3DC;
 	font-weight:normal;
 	text-transform:uppercase;
-	text-shadow:1px 1px 0px #fff;
+	text-shadow: 1px 1px 0 #FFFFFF;;
 	}
 	
 .contact_me_email {
 	font-size:13px;
 	font-family:'KomikaAxisRegular', Helvetica, sans-serif;
-	color:#b63e2d;
+	color:#55C3DC;
 	font-weight:normal;
 	text-transform:uppercase;
-	text-shadow:1px 1px 0px #fff;
+	text-shadow: 1px 1px 0 #FFFFFF;;
 	}
 	
 .contact_me_email a, .contact_me_site a {
 	font-size:13px;
 	font-family:'KomikaAxisRegular', Helvetica, sans-serif;
-	color:#b63e2d;
+	color:#55C3DC;
 	text-decoration:none;
 	font-weight:normal;
 	text-transform:uppercase;
-	text-shadow:1px 1px 0px #fff;
+	text-shadow: 1px 1px 0 #FFFFFF;;
 	}
 	
 ul.honors {
@@ -727,7 +626,7 @@ ul.honors li {
 	background-repeat:no-repeat;
 	background-position:left 8px;
 	line-height:1.4em;
-	text-shadow:1px 1px 0px #fff;
+	text-shadow: 1px 1px 0 #FFFFFF;;
 	padding-bottom: 15px;
 	}
 	
@@ -745,7 +644,7 @@ ul.education li {
 	background-repeat:no-repeat;
 	background-position:left 8px;
 	line-height:1.4em;
-	text-shadow:1px 1px 0px #fff;
+	text-shadow: 1px 1px 0 #FFFFFF;;
 	padding-bottom: 15px;
 	}
 	
@@ -783,7 +682,7 @@ ul#quotes li {
 	color:#333333;
 	padding-left:20px;
 	line-height:1.4em;
-	text-shadow: 1px 1px 0 #FFFFFF;
+	text-shadow: 1px 1px 0 #E7F3EF;
 	}
 	
 /***************************************************
@@ -1018,7 +917,7 @@ input[type=submit]:hover {
 
 .success {
 	background-color: #F9F9F9;
-    color: #B63E2D;
+    color: #55C3DC;
     display: inline-block;
     font-family: 'VegurLight',Helvetica,sans-serif;
     font-size: 16px;
@@ -1045,7 +944,7 @@ input[type=submit]:hover {
 	font-family:'VegurLight', Helvetica, sans-serif;
 	color:#333333;
 	line-height:1.4em;
-	text-shadow:1px 1px 0px #fff;
+	text-shadow: 1px 1px 0 #FFFFFF;;
 	top:0px;
 	right:0px;
 	font-weight:normal;
@@ -1236,7 +1135,7 @@ ul.intervals li {
     text-align: center;
     width: 19.8%;
 	font-family:'VegurLight',Helvetica,sans-serif;
-	text-shadow: 1px 1px 0 #FFFFFF;
+	text-shadow: 1px 1px 0 #E7F3EF;
 }
 
 ul.intervals li.first {
@@ -1244,7 +1143,7 @@ ul.intervals li.first {
 }
 
 .red {
-	background-color: #B63E2D !important;
+	background-color: #55C3DC !important;
 }
 
 .beige {
@@ -1255,5 +1154,13 @@ ul.intervals li.first {
 /* CUSTOMIZED */
 #intro-img {
 	float: left;
-	margin: 0 10px 0 0;
+	margin: 0 12px 0 0;
+	-moz-box-shadow: 1px 1px 7px 2px rgba(255, 255, 255, 0.7);
+	-webkit-box-shadow: 1px 1px 7px 2px rgba(255, 255, 255, 0.7);
+	box-shadow: 1px 1px 7px 2px rgba(255, 255, 255, 0.7);
+}
+
+#download-resume {
+	display: block;
+	margin: -4px 0 0 132px;
 }
