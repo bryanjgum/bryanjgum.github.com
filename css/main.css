@@ -157,30 +157,30 @@ img {
 	border-radius:12px;
 	}
 
-.brand-development      { width:88%;  -moz-animation:brand-development 2s ease-out;       -webkit-animation:brand-development 2s ease-out;       background:#333333;}
+.brand-development      { width:80%;  -moz-animation:brand-development 2s ease-out;       -webkit-animation:brand-development 2s ease-out;       background:#333333;}
 .marketing-and-strategy        { width:90%;  -moz-animation:marketing-and-strategy 2s ease-out;        -webkit-animation:marketing-and-strategy 2s ease-out;        background:#55C3DC;}
-.advertising-and-promotions      { width:82%;  -moz-animation:advertising-and-promotions 2s ease-out;      -webkit-animation:advertising-and-promotions 2s ease-out;      background:#E24B2C;}
-.video-production   { width:88%;  -moz-animation:video-production 2s ease-out;   -webkit-animation:video-production 2s ease-out;   background:#333333;}
-.professional-sales { width:95%; -moz-animation:professional-sales 2s ease-out; -webkit-animation:professional-sales 2s ease-out; background:#55C3DC;}
-.account-management { width:80%; -moz-animation:account-management 2s ease-out; -webkit-animation:account-management 2s ease-out; background:#E24B2C;}
+.advertising-and-promotions      { width:80%;  -moz-animation:advertising-and-promotions 2s ease-out;      -webkit-animation:advertising-and-promotions 2s ease-out;      background:#007CAA;}
+.video-production   { width:85%;  -moz-animation:video-production 2s ease-out;   -webkit-animation:video-production 2s ease-out;   background:#333333;}
+.professional-sales { width:98%; -moz-animation:professional-sales 2s ease-out; -webkit-animation:professional-sales 2s ease-out; background:#55C3DC;}
+.account-management { width:90%; -moz-animation:account-management 2s ease-out; -webkit-animation:account-management 2s ease-out; background:#007CAA;}
 .final-cut-pro-x { width:85%; -moz-animation:final-cut-pro-x 2s ease-out; -webkit-animation:final-cut-pro-x 2s ease-out; background:#333333;}
 .adobe-photoshop-cc { width:75%; -moz-animation:adobe-photoshop-cc 2s ease-out; -webkit-animation:adobe-photoshop-cc 2s ease-out; background:#55C3DC;}
 
-@-moz-keyframes brand-development       { 0%  { width:0px;} 100%{ width:88%;}  }
+@-moz-keyframes brand-development       { 0%  { width:0px;} 100%{ width:80%;}  }
 @-moz-keyframes marketing-and-strategy      { 0%  { width:0px;} 100%{ width:90%;}  }
-@-moz-keyframes advertising-and-promotions    { 0%  { width:0px;} 100%{ width:82%;}  }
-@-moz-keyframes video-production   { 0%  { width:0px;} 100%{ width:88%;}  }
-@-moz-keyframes professional-sales { 0%  { width:0px;} 100%{ width:95%;} }
-@-moz-keyframes account-management { 0%  { width:0px;} 100%{ width:80%;} }
+@-moz-keyframes advertising-and-promotions    { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes video-production   { 0%  { width:0px;} 100%{ width:85%;}  }
+@-moz-keyframes professional-sales { 0%  { width:0px;} 100%{ width:98%;} }
+@-moz-keyframes account-management { 0%  { width:0px;} 100%{ width:90%;} }
 @-moz-keyframes final-cut-pro-x { 0%  { width:0px;} 100%{ width:85%;} }
 @-moz-keyframes adobe-photoshop-cc { 0%  { width:0px;} 100%{ width:75%;} }
 
-@-webkit-keyframes brand-development      { 0%  { width:0px;} 100%{ width:88%;}  }
+@-webkit-keyframes brand-development      { 0%  { width:0px;} 100%{ width:80%;}  }
 @-webkit-keyframes marketing-and-strategy        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-webkit-keyframes advertising-and-promotions     { 0%  { width:0px;} 100%{ width:82%;}  }
-@-webkit-keyframes video-production   { 0%  { width:0px;} 100%{ width:88%;}  }
-@-webkit-keyframes professional-sales { 0%  { width:0px;} 100%{ width:95%;} }
-@-webkit-keyframes account-management { 0%  { width:0px;} 100%{ width:80%;} }
+@-webkit-keyframes advertising-and-promotions     { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes video-production   { 0%  { width:0px;} 100%{ width:85%;}  }
+@-webkit-keyframes professional-sales { 0%  { width:0px;} 100%{ width:98%;} }
+@-webkit-keyframes account-management { 0%  { width:0px;} 100%{ width:90%;} }
 @-webkit-keyframes final-cut-pro-x { 0%  { width:0px;} 100%{ width:85%;} }
 @-webkit-keyframes adobe-photoshop-cc { 0%  { width:0px;} 100%{ width:75%;} }
 
@@ -404,11 +404,12 @@ div .first {
 	}
 	
 h1 {
-	font-size:72px;
+	font-size:30px;
 	font-family:'KomikaAxisRegular', Helvetica, sans-serif;
-	color:#55C3DC;
-	margin-bottom:50px;
+	color:#333333;
+	margin-bottom:20px;
 	font-weight: normal;
+	text-shadow: 1px 1px 0 #FFFFFF;
 	}
 
 h2 {
@@ -423,7 +424,7 @@ h2 {
 	}
 
 h3 {
-	font-size:30px;
+	font-size:24px;
 	font-family:'KomikaAxisRegular', Helvetica, sans-serif;
 	color:#333333;
 	margin-bottom:20px;
@@ -507,30 +508,31 @@ body {
 a {
 	font-size:14px;
 	font-family:'VegurLight', Helvetica, sans-serif;
-	color:#E24B2C;
+	color:#55C3DC;
 	text-decoration:none;
 	}
 
 a:hover {
 	font-size:14px;
 	font-family:'VegurLight', Helvetica, sans-serif;
-	color:#55C3DC;
+	color:#007caa;
 	text-decoration:underline;
 	} 
+
 
 
 p {
 	font-size:14px;
 	font-family:'VegurLight', Helvetica, sans-serif;
-	color:#333333;
+	color:#ffffff;
 	line-height:1.4em;
-	text-shadow: 1px 1px 0 #FFFFFF;;
+	text-shadow: 1px 1px 0 #333333;;
 	}
 
 #header {
 	width:100%;
 	margin:0;
-	height:10px;
+	height:30px;
 	background: #55C3DC
 	}
 	
@@ -566,7 +568,7 @@ p {
 	color:#55C3DC;
 	font-weight:normal;
 	text-transform:uppercase;
-	text-shadow: 1px 1px 0 #FFFFFF;;
+	text-shadow: 1px 1px 0 #333333;;
 	}
 	
 .contact_me_phone img, .contact_me_site img, .contact_me_location img, .contact_me_email img {
@@ -581,7 +583,7 @@ p {
 	color:#55C3DC;
 	font-weight:normal;
 	text-transform:uppercase;
-	text-shadow: 1px 1px 0 #FFFFFF;;
+	text-shadow: 1px 1px 0 #333333;;
 	}
 	
 .contact_me_location {
@@ -590,7 +592,7 @@ p {
 	color:#55C3DC;
 	font-weight:normal;
 	text-transform:uppercase;
-	text-shadow: 1px 1px 0 #FFFFFF;;
+	text-shadow: 1px 1px 0 #333333;;
 	}
 	
 .contact_me_email {
@@ -599,7 +601,7 @@ p {
 	color:#55C3DC;
 	font-weight:normal;
 	text-transform:uppercase;
-	text-shadow: 1px 1px 0 #FFFFFF;;
+	text-shadow: 1px 1px 0 #333333;;
 	}
 	
 .contact_me_email a, .contact_me_site a {
@@ -609,7 +611,7 @@ p {
 	text-decoration:none;
 	font-weight:normal;
 	text-transform:uppercase;
-	text-shadow: 1px 1px 0 #FFFFFF;;
+	text-shadow: 1px 1px 0 #333333;;
 	}
 	
 ul.honors {
@@ -621,12 +623,12 @@ ul.honors {
 ul.honors li {
 	font-size:14px;
 	font-family:'VegurLight', Helvetica, sans-serif;
-	color:#333333;
+	color:#ffffff;
 	background-image:url("../img/trophy_icon.png");
 	background-repeat:no-repeat;
 	background-position:left 8px;
 	line-height:1.4em;
-	text-shadow: 1px 1px 0 #FFFFFF;;
+	text-shadow: 1px 1px 0 #333333;;
 	padding-bottom: 15px;
 	}
 	
@@ -639,12 +641,12 @@ ul.education {
 ul.education li {
 	font-size:14px;
 	font-family:'VegurLight', Helvetica, sans-serif;
-	color:#333333;
+	color:#ffffff;
 	background-image:url("../img/education_icon.png");
 	background-repeat:no-repeat;
 	background-position:left 8px;
 	line-height:1.4em;
-	text-shadow: 1px 1px 0 #FFFFFF;;
+	text-shadow: 1px 1px 0 #333333;;
 	padding-bottom: 15px;
 	}
 	
@@ -1162,5 +1164,5 @@ ul.intervals li.first {
 
 #download-resume {
 	display: block;
-	margin: -4px 0 0 132px;
+	text-shadow: 1px 1px 0 #333333
 }
