@@ -134,7 +134,7 @@ img {
 
 #skill li em { 
 	position:relative; 
-	color:#E7F3EF;
+	color:#ffffff;
 	font-family:'KomikaAxisRegular', Helvetica, sans-serif;
 	font-size:12px;
 	padding-left:8px;
@@ -423,7 +423,7 @@ h2 {
 	}
 
 h3 {
-	font-size:22px;
+	font-size:30px;
 	font-family:'KomikaAxisRegular', Helvetica, sans-serif;
 	color:#333333;
 	margin-bottom:20px;
@@ -437,7 +437,7 @@ h4 {
 	color:#333333;
 	margin-bottom:20px;
 	font-weight: normal;
-	text-shadow: 1px 1px 0 #E7F3EF;
+	text-shadow: 1px 1px 0 #ffffff;
 	}
 
 h5 {
@@ -500,7 +500,7 @@ body {
 	padding:0;
 	margin:0;
 	height:100%;
-	background-image:url("../img/mint_background.jpg");
+	background-image:url("../img/background.jpg");
 	background-repeat:repeat;
 	}
 	
@@ -682,7 +682,7 @@ ul#quotes li {
 	color:#333333;
 	padding-left:20px;
 	line-height:1.4em;
-	text-shadow: 1px 1px 0 #E7F3EF;
+	text-shadow: 1px 1px 0 #ffffff;
 	}
 	
 /***************************************************
@@ -1135,7 +1135,7 @@ ul.intervals li {
     text-align: center;
     width: 19.8%;
 	font-family:'VegurLight',Helvetica,sans-serif;
-	text-shadow: 1px 1px 0 #E7F3EF;
+	text-shadow: 1px 1px 0 #ffffff;
 }
 
 ul.intervals li.first {
