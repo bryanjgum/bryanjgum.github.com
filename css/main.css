@@ -202,7 +202,7 @@ img {
 	font-size:24px;
 	}
 	
-#filter li a {
+#filter li a, .resume-base-font {
 	text-decoration:none;
 	color:#333333;
 	text-decoration:none;
@@ -481,7 +481,7 @@ h6 {
 	float: right;
 	text-align: right;
 	border-bottom: 1px dashed #969491;
-	}
+}
 	
 .accordionContent {
 	display:block;
@@ -1115,6 +1115,46 @@ ul.events li {
 	letter-spacing: 1px;
 }
 
+.default-header {
+    display:block;
+	font-family:'KomikaAxisRegular', Helvetica, sans-serif;
+	color:#333333;
+	padding-bottom:40px;
+	width: 47%;
+	border-bottom:1px dashed #969491;
+	float: right;
+	text-align: right;
+	border-bottom: 1px dashed #969491;
+}
+
+.large-font {
+	font-size:1.2em;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.resume-base-font {
+	line-height:1.4em;
+	text-shadow: 1px 1px 0 #fff;
+	float:left;
+	width:80%;
+	margin: -16% 0 0 35%;
+}
+.resume-base-font a {
+	text-shadow: 1px 1px 0 #000;
+	font-size: 16px;
+	font-family: 'KomikaAxisRegular', Helvetica, sans-serif;
+}
+.resume-base-font a:hover {
+	color:#fff;
+}
+#resume {
+	display: block;
+	float:left;
+	width:140% !important;
+}
 ul.events li em {
     color: #707070;
     font-weight: normal;
