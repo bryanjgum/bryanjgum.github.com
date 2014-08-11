@@ -1139,7 +1139,7 @@ ul.events li {
 	display:block;
 	height:inherit;
 	width:100%;
-	padding: 15px 0;
+	padding: 15px 0 0px 0;
 	overflow: hidden;
 }
 
